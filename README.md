@@ -44,3 +44,12 @@ Connect the existing on-premises MySQL database to AWS using AWS DMS for smooth 
 * Launch an EMR cluster using Amazon EMR to process large amounts of data efficiently with tools like Apache Hadoop and Spark.
 
 * Utilize Amazon QuickSight to create interactive visualizations and dashboards based on the analyzed data, making it easier to understand and derive insights.
+
+
+
+
+<p align="center">
+What do IAM Developers do???   <br/>
+ <img src="https://imgur.com/Bi4YS8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
