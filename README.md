@@ -29,4 +29,18 @@ Walker Marque is tasked with designing a solution using Amazon Web Services (AWS
 * Host the Apache Web Server and Java application on Amazon EC2 instances, which are like virtual computers that can be easily managed and scaled up or down as needed.
   
 * Use Amazon RDS for MySQL to handle the database. It's like having a team of experts manage and maintain your database for you, ensuring it's always available and backed up.
-   
+
+
+
+ 2. Data Analytics Architecture:
+
+# Data Migration:
+Connect the existing on-premises MySQL database to AWS using AWS DMS for smooth data migration.
+
+# Data Storage and Processing:
+
+* Store raw and processed data on Amazon S3, providing a scalable and reliable storage solution.
+
+* Launch an EMR cluster using Amazon EMR to process large amounts of data efficiently with tools like Apache Hadoop and Spark.
+
+* Utilize Amazon QuickSight to create interactive visualizations and dashboards based on the analyzed data, making it easier to understand and derive insights.
