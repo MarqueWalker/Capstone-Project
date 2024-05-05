@@ -53,3 +53,23 @@ What do IAM Developers do???   <br/>
  <img src="https://imgur.com/Bi4YS8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+
+
+# Explanation:
+
+* Storing website files on Amazon S3 ensures they are always available and can be delivered quickly to users worldwide via CloudFront.
+  
+* Using ALB and EC2 ensures the website remains accessible and responsive, even during high traffic or server failures.
+  
+* Amazon RDS simplifies database management tasks and ensures high availability and reliability.
+  
+* For data analysis, AWS services like DMS, S3, EMR, and QuickSight are used to migrate, store, process, and visualize data efficiently and effectively.
+
+In essence, the project involves using various AWS services to create a highly available, scalable, and fault-tolerant architecture for hosting both the application and data analysis workloads in the cloud.
+
+
+
+
+
+
