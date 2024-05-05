@@ -10,3 +10,23 @@ Walker Marque is tasked with designing a solution using Amazon Web Services (AWS
 1. Separate different parts of the application.
 2. Host both application and data analysis in the cloud.
 3. Ensure the system stays operational even during technical problems.
+
+
+# Proposed AWS Services:
+
+1. Three-Tier Architecture:
+   
+# Frontend (HTML, CSS, JavaScript):
+
+* Use Amazon S3 to store website files like HTML, CSS, and JavaScript. It's like a really big and reliable storage box for website stuff.
+  
+* Employ Amazon CloudFront to deliver these files quickly to users worldwide. It acts like a super-fast delivery system for website content.
+  
+# Backend (Apache Web Server and Java application):
+
+* Implement an Application Load Balancer (ALB) to evenly distribute user traffic among multiple servers, ensuring the website stays accessible even if one server goes down.
+  
+* Host the Apache Web Server and Java application on Amazon EC2 instances, which are like virtual computers that can be easily managed and scaled up or down as needed.
+  
+* Use Amazon RDS for MySQL to handle the database. It's like having a team of experts manage and maintain your database for you, ensuring it's always available and backed up.
+   
